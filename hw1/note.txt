@@ -1,0 +1,55 @@
+loop 0
+newa=-0.5574077246549021, a=1.0, fp(a)=0.5403023058681398, f(a)=0.8414709848078965,  |newa-a|=1.557407724654902, fabs(a - newa) / fabs(newa) = 2.7940189124919503
+loop 1
+newa=0.06593645192484066, a=-0.5574077246549021, fp(a)=0.8486292436261492, f(a)=-0.5289880970896319,  |newa-a|=0.6233441765797427, fabs(a - newa) / fabs(newa) = 9.45371123836444
+loop 2
+newa=-9.572191932508134e-05, a=0.06593645192484066, fp(a)=0.9978269796130803, f(a)=0.06588868458420974,  |newa-a|=0.06603217384416574, fabs(a - newa) / fabs(newa) = 689.8333663778071
+loop 3
+newa=2.923566201412306e-13, a=-9.572191932508134e-05, fp(a)=0.9999999954186571, f(a)=-9.572191917890302e-05,  |newa-a|=9.572191961743796e-05, fabs(a - newa) / fabs(newa) = 327414920.7608056
+loop 4
+newa=0.0, a=2.923566201412306e-13, fp(a)=1.0, f(a)=2.923566201412306e-13,  |newa-a|=2.923566201412306e-13, fabs(a - newa) / fabs(newa) = inf
+loop 5
+newa=0.0, a=0.0, fp(a)=1.0, f(a)=0.0,  |newa-a|=0.0, fabs(a - newa) / fabs(newa) = nan
+loop 6
+newa=0.0, a=0.0, fp(a)=1.0, f(a)=0.0,  |newa-a|=0.0, fabs(a - newa) / fabs(newa) = nan
+loop 7
+newa=0.0, a=0.0, fp(a)=1.0, f(a)=0.0,  |newa-a|=0.0, fabs(a - newa) / fabs(newa) = nan
+loop 8
+newa=0.0, a=0.0, fp(a)=1.0, f(a)=0.0,  |newa-a|=0.0, fabs(a - newa) / fabs(newa) = nan
+loop 9
+newa=0.0, a=0.0, fp(a)=1.0, f(a)=0.0,  |newa-a|=0.0, fabs(a - newa) / fabs(newa) = nan
+Newton_original, counter=10
+/Users/ray/Library/Mobile Documents/com~apple~CloudDocs/NYU/24s/nm/hw1/hw1.py:114: RuntimeWarning: divide by zero encountered in scalar divide
+  print(f"newa={repr(newa)}, a={a}, fp(a)={fp(a)}, f(a)={f(a)},  |newa-a|={repr(fabs(a - newa))}, fabs(a - newa) / fabs(newa) = {fabs(a - newa) / fabs(newa)}")
+/Users/ray/Library/Mobile Documents/com~apple~CloudDocs/NYU/24s/nm/hw1/hw1.py:115: RuntimeWarning: divide by zero encountered in scalar divide
+  if fabs(a - newa) / fabs(newa) < tol:
+/Users/ray/Library/Mobile Documents/com~apple~CloudDocs/NYU/24s/nm/hw1/hw1.py:114: RuntimeWarning: invalid value encountered in scalar divide
+  print(f"newa={repr(newa)}, a={a}, fp(a)={fp(a)}, f(a)={f(a)},  |newa-a|={repr(fabs(a - newa))}, fabs(a - newa) / fabs(newa) = {fabs(a - newa) / fabs(newa)}")
+/Users/ray/Library/Mobile Documents/com~apple~CloudDocs/NYU/24s/nm/hw1/hw1.py:115: RuntimeWarning: invalid value encountered in scalar divide
+  if fabs(a - newa) / fabs(newa) < tol:
+
+loop 0
+newa=3.142546543074278, a=3.0, fp(a)=-0.9899924966004454, f(a)=0.1411200080598672,  |newa-a|=0.14254654307427783, fabs(a - newa) / fabs(newa) = 0.0453602010727351
+loop 1
+newa=3.141592653300477, a=3.142546543074278, fp(a)=-0.9999995450474601, f(a)=-0.0009538893398264409,  |newa-a|=0.0009538897738008423, fabs(a - newa) / fabs(newa) = 0.00030363254535839014
+loop 2
+newa=3.141592653589793, a=3.141592653300477, fp(a)=-1.0, f(a)=2.8931624907621843e-10,  |newa-a|=2.893161266115385e-10, fabs(a - newa) / fabs(newa) = 9.209218333285399e-11
+Newton_original, counter=2
+
+Process finished with exit code 0
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
